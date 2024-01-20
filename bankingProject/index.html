@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank-System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outter">
+        <div class="title">
+            <h1 class="bCol">Banking <strong class="sCol">System</strong></h1>
+        </div>
+        
+        <div class="amount-contener">
+            <div class="deposite amo-contener">
+               <div>
+                
+               <h1 id="depoValue">00</h1>
+               <p>Diposite</p>
+               </div>
+            </div>
+            <div class="widtdrow amo-contener">
+                <div>
+                
+                    <h1 id="withValue">00</h1>
+                    <p>Withdraw</p>
+                    </div>
+            </div>
+            <div class="Total amo-contener">
+                <div>
+                
+                    <h1 id="totalAmo">00</h1>
+                    <p>Total</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="second-section">
+            <div class="input-box ">
+                <input id="depoAmount" type="number" placeholder="Amount">
+                <br>
+                <button onclick="depositehandel()" class="btn">Deposite</button>
+            </div>
+            <div class="input-box">
+                <input id="withAmount" type="number" placeholder="Amount">
+                <br>
+                <button onclick="withdrawhandel()" class="btn">Withdraw</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- here is the script file -->
+    <script src="./app.js"></script>
+</body>
+</html>

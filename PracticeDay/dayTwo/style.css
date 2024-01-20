@@ -1,0 +1,66 @@
+
+
+.search-box{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.find{
+    height: 40px;
+    text-align: center;
+    color: cadetblue;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px rgb(65, 63, 63); 
+    font-size: 45px;
+}
+#search{
+    padding: 10px 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 4px black;
+}
+#btn{
+    padding: 12px 20px;
+    background-color: rgb(8, 180, 114);
+    border: none;
+    border-radius: 5px;
+    color: azure;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 8px 8px 8px gray;
+}
+#btn:hover{
+    background-color: rgb(6, 233, 93);
+    color: goldenrod;
+}
+
+h1{
+    text-align: center;
+    color: aquamarine;
+}
+strong{
+    color: goldenrod;
+    font-weight: bold;
+}
+.card-box{
+    width: 300px;
+    height: 400px;
+    border: none;
+    border-radius: 15px;
+    /* text-align: left; */
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(66, 155, 125);
+    color: whitesmoke;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+.show-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}

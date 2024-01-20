@@ -1,0 +1,8 @@
+.vscode
+.cph/
+.vscode/
+*.txt
+*.exe
+*.bin
+myEnv/
+.venv/

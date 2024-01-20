@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: #436EA3; */
+}
+.outter{
+    width: 70%;
+    height: 90vh;
+    margin: auto;
+    border: 2px solid black;
+    border-top:25px solid black ;
+}
+.title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bCol{
+    color: wheat;
+}
+.sCol{
+    color: cadetblue;
+}
+.amo-contener{
+    height: 250px;
+    width: 400px;
+    background-color: rgb(5, 71, 16);
+    border: 1px solid black;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px black;
+}
+.amount-contener{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    gap: 50px;
+}
+p{
+    margin-top: 50px;
+}
+.btn{
+    padding: 15px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(148, 7, 77);
+    border: none;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.input-box{
+    padding: 40px;
+    /* border: 2px solid gray; */
+    background-color: rgb(40, 94, 94);
+    border-radius: 5px;
+    box-shadow: 8px 8px 16px black;
+}
+input{
+    padding: 10px 20px;
+}
