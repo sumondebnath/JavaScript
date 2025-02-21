@@ -1,2 +1,2 @@
 Java Script:
-[text](https://www.w3schools.com/js/default.asp)
+[Link](https://www.w3schools.com/js/default.asp)
