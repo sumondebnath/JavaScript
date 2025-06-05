@@ -1,4 +1,4 @@
-
+    // Filtered by list of object.
 
 const products = [
     {id:1, Name:"abc", color:"red"},
@@ -12,3 +12,14 @@ const product = products.filter((pd) => console.log(pd.color));
 
 const product2 = products.filter((pd) => pd.color == "blue");
 console.log(product2);
+
+
+    // Filtered by List of numbers
+
+let numbers = [10, 20, 30, 40, 50, 60, 70, 80];
+
+let result = numbers.filter((currVal, currIndex, arr)=>{
+    return currVal >= 20;
+});
+
+console.log(result);
